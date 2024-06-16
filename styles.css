@@ -1,0 +1,41 @@
+html {
+    font-size: 62.5%;                                         
+}
+body {
+    font-size: 16px;
+    font-family: "Ubuntu", sans-serif;
+    background-color: black;
+}
+#cabecera{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+    margin-right: 15rem;
+}
+#logo{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+#contenido{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+.card{
+    border-style: solid;
+    border-color: grey;
+    border-width: 0.5rem;
+    border-radius: 2rem;
+}
+.card-body h5{
+    font-size: 3rem;
+}
+.card-body .btn{
+    padding: 1.5rem;
+    font-size: 1.5rem;
+}
